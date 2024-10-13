@@ -12,12 +12,12 @@ public class Temperatura {
         temperatura = sc.nextDouble();
         System.out.printf("Hay %.1f. El tipo de clima hoy es ", temperatura);
         if(temperatura <= 10)
-            System.out.printf("Frío");
+            System.out.println("Frío");
         else if (temperatura > 10 && temperatura <= 20)
-            System.out.printf("Nublado");
+            System.out.println("Nublado");
         else if (temperatura > 20 && temperatura < 30)
-            System.out.printf("Caluroso");
+            System.out.println("Caluroso");
         else if (temperatura >= 30)
-            System.out.printf("Tropical");
+            System.out.println("Tropical");
     }
 }
