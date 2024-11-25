@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GestorPeliculas implements IGestorPeliculas {
-    private List<Pelicula> listaPeliculas = new ArrayList<>();
+    private List<Pelicula> listaPeliculas;
 
     public GestorPeliculas(List<Pelicula> peliculas) {
         this.listaPeliculas = peliculas;
