@@ -13,13 +13,6 @@ public class GestorPeliculas implements IGestorPeliculas {
         this.listaPeliculas = peliculas;
     }
 
-    public GestorPeliculas() {
-    }
-
-    public List<Pelicula> getPeliculas() {
-        return listaPeliculas;
-    }
-
 
     @Override
     public void verPeliculasDisponibles() {

@@ -1,8 +1,8 @@
 package Modulo4.Sesion11.Evaluacion.Clases;
 
 public class Pelicula {
-    private String titulo;
-    private int anioEstreno;
+    private final String titulo;
+    private final int anioEstreno;
     private boolean arriendo;
 
     public Pelicula(String titulo, int anioEstreno, boolean arriendo) {
@@ -13,10 +13,6 @@ public class Pelicula {
 
     public String getTitulo() {
         return titulo;
-    }
-
-    public int getAnioEstreno() {
-        return anioEstreno;
     }
 
     public boolean isArriendo() {
