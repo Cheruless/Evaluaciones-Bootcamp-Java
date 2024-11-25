@@ -3,7 +3,6 @@ package Modulo4.Sesion11.Evaluacion.Clases;
 import Modulo4.Sesion11.Evaluacion.Clases.Pago.IMetodoPago;
 import Modulo4.Sesion11.Evaluacion.Clases.Pago.MetodoPago;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class GestorPeliculas implements IGestorPeliculas {
